@@ -40,6 +40,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="73" y="-86"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="n26-7r-tym">
+            <objects>
+                <viewController id="MAN-zh-uU5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NPi-9j-1zT"/>
+                        <viewControllerLayoutGuide type="bottom" id="A2O-Lr-iKZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8ny-T4-mNh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjn-Dn-BpJ">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a lovely church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZy-ae-9r2">
+                                <rect key="frame" x="103" y="349" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wjn-Dn-BpJ" firstAttribute="top" secondItem="NPi-9j-1zT" secondAttribute="bottom" constant="40" id="5JO-Lp-X4X"/>
+                            <constraint firstItem="aZy-ae-9r2" firstAttribute="top" secondItem="Wjn-Dn-BpJ" secondAttribute="bottom" constant="50" id="LPb-6A-AMX"/>
+                            <constraint firstItem="Wjn-Dn-BpJ" firstAttribute="centerX" secondItem="8ny-T4-mNh" secondAttribute="centerX" id="PY4-cw-ZGt"/>
+                            <constraint firstItem="Wjn-Dn-BpJ" firstAttribute="centerX" secondItem="8ny-T4-mNh" secondAttribute="centerX" id="Pwi-Yc-QIc"/>
+                            <constraint firstItem="Wjn-Dn-BpJ" firstAttribute="centerX" secondItem="8ny-T4-mNh" secondAttribute="centerX" id="QRA-fE-db5"/>
+                            <constraint firstItem="Wjn-Dn-BpJ" firstAttribute="centerX" secondItem="8ny-T4-mNh" secondAttribute="centerX" id="jg4-uy-NsX"/>
+                            <constraint firstItem="aZy-ae-9r2" firstAttribute="centerX" secondItem="8ny-T4-mNh" secondAttribute="centerX" id="kZe-dD-vzW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RyT-Cq-x9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="719" y="-60"/>
         </scene>
     </scenes>
 </document>
